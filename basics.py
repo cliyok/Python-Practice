@@ -17,21 +17,21 @@ Psychology of money"""
 print(favorite_books)
 print(name + """said,"we should improve our python programming" """)
 
-for ball in range(7, 30):
+for ball in range(8, 30):
     print(ball)
 parrot = "Kenyan Blue"
+print(parrot[1])
 print(parrot[0])
-print(parrot[-1])
-print(parrot[0:9])
-print(parrot[:6])
-print(parrot[3:])
-print(parrot[0:10:3])
+print(parrot[1:9])
+print(parrot[:7])
+print(parrot[4:])
+print(parrot[1:10:3])
 
 pain = "Headache"
 print("ache" in pain)
 print("{} age is {}".format(name, age))
-for books in range(2, 100, 3):
-    print("{} books {:2} has {:4} pages which will take {:4}days to complete".format(name, books, books ** 4, books * 5))
+for books in range(3, 100, 3):
+    print("{} books {:3} has {:4} pages which will take {:4}days to complete".format(name, books, books ** 4, books * 5))
 
-print("Pi is {:12} ".format(22/7))
-print("Pi is {:12.50} ".format(22/7))
+print("Pi is {:13} ".format(22/7))
+print("Pi is {:13.50} ".format(22/7))
