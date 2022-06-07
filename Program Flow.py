@@ -1,5 +1,5 @@
 name = input("Please enter your name ")
-age = int(input("What is your age {}?".format(name)))
+age = int(input("What is your age {}? ".format(name)))
 
 if 21>=age<=65:#ages between 21 and 65 are not included in the associate ranks
     print("You are welcome to join the associate rank")
@@ -17,7 +17,8 @@ else:
 # for loops
 number_characters = input("Please enter the number/ numbers or character/ characters of your choice ")
 cleaned_number_characters = " "
-for typed in range(0, len(number_characters))
+Cleaned_number_characters = " "
+for typed in range(0, len(number_characters)):
     if number_characters[typed] in name:
         cleaned_number_characters += number_characters[typed]
 new_number_characters = cleaned_number_characters# this prevents the loop from repeating , making it perfom once through the loop
@@ -25,5 +26,5 @@ print(new_number_characters)
 
 for char in number_characters:
     if char in name:
-        cleaned_number_characters+=char
-print(cleaned_number_characters)
+        Cleaned_number_characters += char
+print(Cleaned_number_characters)
