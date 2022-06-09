@@ -1,4 +1,4 @@
-from _ast import Break
+import random
 
 name = input("Please enter your name ")
 age = int(input("What is your age {}? ".format(name)))
@@ -73,3 +73,38 @@ if character != ".":
     print("segment {} contains {} characters".format(segments, length))
 if IP_address == " ":
     print("Invalid IP address")
+
+# While loops used to loop a condition is true till it is false
+
+a =  0
+while a < 10:
+    print("a is now {}".format(a))
+    a += 1
+
+available_exits = ["south", "north east", " south"]
+
+chosen_exit = ""
+while chosen_exit not in available_exits:
+    chosen_exit = input("Please enter a direction: ")
+    if chosen_exit == "quit":
+        print("Finished")
+        break
+else:
+    print("arent you glad you got out there")
+
+
+# Challenge
+# random module imported
+highest = 10
+answer = random.randint(1, highest)
+
+print("Please guess a number between 1 and {}: ".format(highest))
+guess = 0 # initiallize to any number outside of the valid range
+while guess != answer:
+    guess = int(input("Guess a number: "))
+    if guess < answer:
+        print("Please guess a higher")
+    elif guess > answer: # guess must be greater than number
+        print("Please guess lower")
+    else:
+        print("Well done, you guessed it")
