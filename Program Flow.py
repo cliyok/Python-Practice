@@ -76,7 +76,7 @@ if IP_address == " ":
 
 # While loops used to loop a condition is true till it is false
 
-a =  0
+a = 0
 while a < 10:
     print("a is now {}".format(a))
     a += 1
@@ -99,7 +99,7 @@ highest = 10
 answer = random.randint(1, highest)
 
 print("Please guess a number between 1 and {}: ".format(highest))
-guess = 0 # initiallize to any number outside of the valid range
+guess = 0 # initialize to any number outside the valid range
 while guess != answer:
     guess = int(input("Guess a number: "))
     if guess < answer:
