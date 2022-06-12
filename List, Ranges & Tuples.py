@@ -45,3 +45,22 @@ my_iterator = iter(Days_list)
 for value in range(0, len(Days_list)):
     next_item = next(my_iterator)
     print(next_item)
+
+for i in range(199,1,-2):
+    print(i)
+
+for word in Days_list:
+    print(word[::-1])
+
+O = range(0, 100, 2)
+print(O)
+p=O[::5]
+print(p)
+
+Days_list[0] = "No work"
+print(Days_list)
+
+days_weeks = "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"
+print(days_weeks)
+days_weeks = days_weeks[0],"No work", days_weeks[2]
+print(days_weeks)
