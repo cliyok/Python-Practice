@@ -64,3 +64,31 @@ days_weeks = "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sund
 print(days_weeks)
 days_weeks = days_weeks[0],"No work", days_weeks[2]
 print(days_weeks)
+
+Tesla = "model X","Electric", 2018
+Toyota = "Toyota Corolla","Diesel", "2020"
+Honda = "Honda CRV", "Hybrid", 2021
+# unpacking tuples
+Model, Type, Year = Tesla
+print(Model)
+print(Type)
+print(Year)
+print(Model, Type, Year)
+
+eminem = "The Eminem Show", "Eminem", "2002", (
+    (1, "White America"), (2, "Business"), (3,"Cleaning Out My Closet[Explicit]"), (4, "Square Dance"),
+    (5, "The Kiss"), (6, "Soldier"), (7, "Say Goodbye Hollywood"), (8, "Drips"), (9, "Without Me"), (10,"Paul Rosenberg"), (11, "Sing for the Moment [Explicit]"),
+    (12, "Superman"), (13, "Hallie song"), (14, "Steve Berman(Skit)"), (15, "When Music stops"), (16, "Say What you Say"), (17, "Till I Collapse"), (18, "My Dad's Gone Crazy"), (19, "Curtains Close(skit)"))
+Title, Artist, Year, Tracks = eminem
+print(Title)
+print(Artist)
+print(Year)
+for song in Tracks:
+    track,title = song
+    print("\tTrack {}, song: {}".format(track, title))
+# Binary data
+
+for numbers in range(256,1000):
+    print("{0:>2} in binary is {0:>08b}".format(numbers))
+for numerics in range(256,1000):
+    print("{0:>2} in hexadecimal is {0:>02x}".format(numerics))

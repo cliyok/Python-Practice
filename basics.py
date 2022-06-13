@@ -33,5 +33,5 @@ print("{} age is {}".format(name, age))
 for books in range(3, 100, 3):
     print("{} books {:3} has {:4} pages which will take {:4}days to complete".format(name, books, books ** 4, books * 5))
 
-print("Pi is {:13} ".format(22/7))
+print("Pi is {0:13} ".format(22/7))
 print("Pi is {:13.50} ".format(22/7))
