@@ -47,3 +47,4 @@ while True:
         loc = exits[loc][direction]
     else:
         print("You cannot go in that direction")
+dddd,flvf
