@@ -27,6 +27,12 @@ while True:
     car_make = tesla.get(dict_key, "We do not have " + dict_key)  # the dict_key + " is not acceptable" replaces,
     # if changed indentation is important  the else in line 24
     print(car_make)
-    # else:
-    #     print("{} is not acceptable".format(dict_key))
+    else:
+        print("{} is not acceptable".format(dict_key))
 
+# join method
+
+myList = ["a", "b", "c", "d"]
+new_string =" "
+new_string = ",".join(myList)
+print(new_string)

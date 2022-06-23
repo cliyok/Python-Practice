@@ -38,7 +38,7 @@ for value in iter(even):
 for values in iter(even):
     print(values)
 
-Days_list = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+Days_list = ["Monday", "Tuesday", "Wednesday","Thursday", "Friday", "Saturday","Sunday"]
 
 my_iterator = iter(Days_list)
 
@@ -60,7 +60,7 @@ print(p)
 Days_list[0] = "No work"
 print(Days_list)
 
-days_weeks = "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"
+days_weeks = "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday", "Sunday"
 print(days_weeks)
 days_weeks = days_weeks[0],"No work", days_weeks[2]
 print(days_weeks)
